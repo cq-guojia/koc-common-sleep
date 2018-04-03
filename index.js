@@ -1,11 +1,9 @@
 "use strict"
 
-function KOCSleep(time) {
+module.exports = (time) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve();
     }, time)
   });
-}
-
-module.exports = KOCSleep;
+};
