@@ -1,6 +1,6 @@
 {
   "name": "koc-common-sleep",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "koc-common-sleep",
   "main": "dist/index.js",
   "scripts": {
