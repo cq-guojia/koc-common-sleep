@@ -2,7 +2,9 @@
 
 module.exports = (time) => {
   return new Promise((resolve, reject) => {
-    setTimeout(() => {
+    let timer = setTimeout(() => {
+      clearTimeout(timer);
+      timer = null
       resolve();
     }, time)
   });
